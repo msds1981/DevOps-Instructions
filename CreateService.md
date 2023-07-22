@@ -4,9 +4,9 @@
 
 # 2-copy code to the file, don't forget to replcae applicaiton name and path
 
-[Unit] 
-Description= dotnet core 7 webapp
-[Service] 
+> [Unit] 
+> Description= dotnet core 7 webapp
+> [Service] 
 WorkingDirectory=/var/www/dotnetwebapp
 ExecStart=/usr/bin/dotnet /var/www/dotnetwebapp/WepAppHostOnNginx.dll 
 Restart=always
